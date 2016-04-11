@@ -1,0 +1,21 @@
+from tkinter import*
+
+window = Tk()
+window.title("Breakout Instruction")
+w = Canvas(window, bg = "BLACK", width="1000", height="600")
+Title = Label(window, text="Breakout: Instructions", bg="Black", fg="White", font=("Space Bd BT",40))    
+LineInstruction1 = Label(window, text="The concept of the game is to break all the bricks with a ball", bg="Black", fg="Green", font=("Space Bd BT",20))
+LineInstruction2 = Label(window, text="using the paddle to deflect the ball within the time limit.", bg="Black", fg="Green", font=("Space Bd BT",20))
+LineInstruction3 = Label(window, text="You will have 3 live points at the start.", bg="Black", fg="Green", font=("Space Bd BT",20))
+LineInstruction4 = Label(window, text="If you run out of life points, it will be game over.", bg="Black", fg="Green", font=("Space Bd BT",20))
+LineInstruction5 = Label(window, text="If you fail to destroy all the bricks in time limit it will be game over.", bg="Black", fg="Green", font=("Space Bd BT",20))
+LineInstruction6 = Label(window, text="You can begin the game by pressing the spacebar button.", bg="Black", fg="Green", font=("Space Bd BT",20))
+
+w.pack()
+Title.place(x=250,y=10) 
+LineInstruction1.place(x=150,y=100) 
+LineInstruction2.place(x=150,y=140)
+LineInstruction3.place(x=150,y=180) 
+LineInstruction4.place(x=150,y=220)
+LineInstruction5.place(x=150,y=260)
+LineInstruction6.place(x=150,y=300)
